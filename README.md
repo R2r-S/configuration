@@ -17,8 +17,11 @@ Here is a list of available scripts and their purposes:
 ## Installation
 
 git clone https://github.com/R2r-S/configuration.git
+
 cd configuration
+
 ./install
+
 
 Running Individual Scripts
 
