@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "Do you want to configure the /sbin directory?"
+msgstr "Do you want to configure the /sbin directory?"
+
+msgid "Do you want to disable the 'beep' sound (on logout)?"
+msgstr "Do you want to disable the 'beep' sound (on logout)?"
+
+msgid "Do you want to configure Bluetooth?"
+msgstr "Do you want to configure Bluetooth?"
+
+msgid "Do you want to configure repository addition (software-properties)?"
+msgstr "Do you want to configure repository addition (software-properties)?"
+
+msgid "Do you want to install drivers?"
+msgstr "Do you want to install drivers?"
+
+msgid "Do you want to configure the system language?"
+msgstr "Do you want to configure the system language?"
+
+msgid "Debian Configuration"
+msgstr "Debian Configuration"
+
+msgid "Press Enter to continue..."
+msgstr "Press Enter to continue..."
+
+msgid "Successfully completed. Please restart your computer."
+msgstr "Successfully completed. Please restart your computer."
+
+msgid "Added /sbin to the PATH variable for the current session."
+msgstr "Added /sbin to the PATH variable for the current session."
+
+msgid "Enter the username for whom you want to add /sbin to PATH: "
+msgstr "Enter the username for whom you want to add /sbin to PATH: "
+
+msgid "User %s exists."
+msgstr "User %s exists."
+
+msgid "The entry PATH=\"$PATH:/sbin\" already exists in the %s file."
+msgstr "The entry PATH=\"$PATH:/sbin\" already exists in the %s file."
+
+msgid "Added PATH=\"$PATH:/sbin\" to the %s file."
+msgstr "Added PATH=\"$PATH:/sbin\" to the %s file."
+
+msgid "User %s does not exist. Check the username and try again."
+msgstr "User %s does not exist. Check the username and try again."
+
+msgid "Installing firmware packages"
+msgstr "Installing firmware packages"
+
+msgid "Do you want to install INTEL WiFi drivers?"
+msgstr "Do you want to install INTEL WiFi drivers?"
+
+msgid "Do you want to install Broadcom WiFi drivers?"
+msgstr "Do you want to install Broadcom WiFi drivers?"
+
+msgid "Do you want to install NVIDIA drivers?"
+msgstr "Do you want to install NVIDIA drivers?"
+
+msgid "Do you want to install non-free drivers?"
+msgstr "Do you want to install non-free drivers?"
+
+msgid "Installing INTEL WiFi drivers..."
+msgstr "Installing INTEL WiFi drivers..."
+
+msgid "Installing Broadcom WiFi drivers..."
+msgstr "Installing Broadcom WiFi drivers..."
+
+msgid "Installing NVIDIA drivers..."
+msgstr "Installing NVIDIA drivers..."
+
+msgid "Installing non-free drivers..."
+msgstr "Installing non-free drivers..."
+
+msgid "Firmware installation completed."
+msgstr "Firmware installation completed."
