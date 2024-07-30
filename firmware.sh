@@ -74,27 +74,27 @@ printf "\e[34m%s\e[0m\n" "$(translate "Installing firmware packages")"
 # Install the appropriate firmware packages based on the responses
 if [[ $intel ]]; then
     echo "$(translate "Installing INTEL WiFi drivers...")"
-    apt install -y firmware-iwlwifi
+    sudo apt install -y firmware-iwlwifi
 fi
 
 if [[ $broadcom ]]; then
     echo "$(translate "Installing Broadcom WiFi drivers...")"
-    apt install -y firmware-brcm80211
+    sudo apt install -y firmware-brcm80211
 fi
 
 if [[ $nvidia ]]; then
     echo "$(translate "Installing NVIDIA drivers...")"
-    apt install -y linux-headers-amd64 nvidia-driver firmware-misc-nonfree
+    sudo apt install -y linux-headers-amd64 nvidia-driver firmware-misc-nonfree
 fi
 
 if [[ $nonfree ]]; then
     echo "$(translate "Installing non-free drivers...")"
-    apt install -y firmware-linux-nonfree firmware-misc-nonfree
+    sudo apt install -y firmware-linux-nonfree firmware-misc-nonfree
 fi
 
 if [[ $nonfree ]]; then
     echo "$(translate "Installing firmware-realtek drivers...")"
-    apt install -y firmware-realtek
+    sudo apt install -y firmware-realtek
 fi
 
 echo "$(translate "Firmware installation completed.")"
